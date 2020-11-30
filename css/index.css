@@ -15,15 +15,16 @@
     line-height: 17px;
 }
 
-.main-header
+#main-header
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-#list 
+#list li
 {
     list-style-type: none;
     float: left;
+
 }

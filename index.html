@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caroozen Web site</title>
     <link href="css/index.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <!-- Starting of Sub Header -->
     <header>
@@ -37,23 +39,25 @@
     <!-- Ending of Main Header-->
 
     <!--Starting of Banner-->
-        <div class="banner">
-            <div class="msg">
-                <span>
-                    Buy,Sell
-                </span>
-                    <span id="type-msg"></span>
-                <script src="js/index.js"></script>
-                <script>show()</script>
-                <p>
-                    The digital alternative to<br>
-                    100% secure, simple and flexible bank cheque
-                </p>
-            </div>
-            <div class="img">
-                <img src="images/hero.png" alt="hero">
-            </div>
+    <div class="banner">
+        <div class="msg">
+            <span>
+                Buy,Sell
+            </span>
+            <span id="type-msg"></span>
+            <script src="js/index.js"></script>
+            <script>
+                show()
+            </script>
+            <p>
+                The digital alternative to<br>
+                100% secure, simple and flexible bank cheque
+            </p>
         </div>
+        <div class="img">
+            <img src="images/hero.png" alt="hero">
+        </div>
+    </div>
     <!--Endign of Banner-->
     <!--Section-->
     <section>
@@ -91,5 +95,34 @@
         </div>
     </section>
     <!--end section-->
+
+    <!-- Suitable Section-->
+    <section>
+        <div class="suitable">
+            <h2>Why Us?</h2>
+            <p>
+                The digital alternative to the bank check for a 100% secure transaction Exchange only with trusted
+                people - We verify the identity of each user when registering
+            </p>
+            <div class="btn">
+                <button onclick="buyOption()">Buyer</button>
+                <button onclick="sellOption()">Seller</button>
+            </div>
+            <div class="answer">
+                <div class="ans">
+                    <h3>Buy Without Constaint</h3>
+                    <ul id="list-why">
+                    </ul>
+                </div>
+                <div class="img-why">
+                    <img src="images/whyus.jpg" alt="Why you choose us?">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Suitable Section-->
+
 </body>
+
 </html>

@@ -105,14 +105,15 @@
                 people - We verify the identity of each user when registering
             </p>
             <div class="btn">
-                <button onclick="buyOption()">Buyer</button>
-                <button onclick="sellOption()">Seller</button>
+                <button onclick="buyOption()" id="buyer">Buyer</button>
+                <button onclick="sellOption()" id="seller">Seller</button>
             </div>
             <div class="answer">
                 <div class="ans">
-                    <h3>Buy Without Constaint</h3>
+                    <h3 id="ans-heading">Buy Without Constaint</h3>
                     <ul id="list-why">
                     </ul>
+                    <script src="js/data.js"></script>
                 </div>
                 <div class="img-why">
                     <img src="images/whyus.jpg" alt="Why you choose us?">
@@ -122,7 +123,6 @@
         </div>
     </section>
     <!-- End Suitable Section-->
-
 </body>
 
 </html>

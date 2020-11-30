@@ -159,17 +159,46 @@
     cursor: pointer;
 }
 
+#seller
+{
+    background-color:#f8f9fd;
+    color:#23cf5f;
+}
 .answer
 {
     display: flex;
-    justify-content: center;
     background-color:white;
-    width: 50%;
+    width: 60%;
     margin: 2rem auto;
+    padding: 0.8rem 2rem;
+    box-sizing: border-box;
 }
 
 .img-why img
 {
     width: 350px;
     height: 500px;
+    margin-left: 1.4rem;
+}
+
+#ans-heading
+{
+    text-align: left;
+    color:#2c3038;
+    font-family:Nunito, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+#list-why li
+{
+    text-align: left;
+    color:#2c3038;
+    font-family:Nunito, sans-serif;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+    list-style-image:url("../images/check.png");
 }

@@ -26,5 +26,41 @@
 {
     list-style-type: none;
     float: left;
+}
+.banner
+{
+    display: flex;
+    background-color: #d4edd8;
+    justify-content: space-around;
 
+}
+.msg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.msg span
+{
+    font-family:Nunito, sans-serif;
+    font-size: 75px;
+    color: #2c3038;
+    font-weight: 700;
+
+
+}
+.msg p
+{
+    text-align: center;
+}
+
+.img img
+{
+    width: 350px;
+    height: 500px;
+    padding: 20px 20px 0 0;
+}
+#type-msg
+{animation:  typing 3.5s steps(40, end),blink-caret .75s step-end infinite;
 }

@@ -168,7 +168,7 @@
 {
     display: flex;
     background-color:white;
-    width: 60%;
+    width: 70%;
     margin: 2rem auto;
     padding: 0.8rem 2rem;
     box-sizing: border-box;
@@ -201,4 +201,98 @@
     line-height: 1.5;
     font-weight: 500;
     list-style-image:url("../images/check.png");
+}
+
+.how h2
+{
+    color:#2c3038;
+    font-family:Nunito, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+
+}
+.how p
+{
+    color:#2c3038;
+    font-family:Nunito, sans-serif;
+    font-size: 1rem;
+    line-height:0.8rem;
+    font-weight: 300;
+}
+
+.how-main
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 20px 100px;
+    box-sizing: border-box;
+}
+
+.video iframe
+{
+   width: 600px;
+   height: 400px;
+}
+.how-works
+{
+    text-align: left;
+    margin-left: 25px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.how-works li
+{
+    margin-top: 25px;
+}
+.how-works li p
+{
+    text-align: left;
+    color:#2c3038;
+    margin: 0;
+    font-family:Nunito, sans-serif;
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+
+}
+.how-works li h3
+{
+    color:#2c3038;
+    font-size: 1.2rem;
+    font-family:Nunito, sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.how-works li a
+{
+    text-decoration: none;
+    color: #23cf5f;
+    font-family:Nunito, sans-serif;
+    font-size: 0.9rem;
+    line-height: 0.8rem;
+    font-weight: 550;
+}
+
+.num
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.num-n
+{
+    margin-right: 15px;
+    background-color: #23cf5f;
+    font-family:Nunito, sans-serif;
+    color:white;
+    position: relative;
+    top: -15px;
+    padding: 0.4rem;
+    border-radius:55%;
 }

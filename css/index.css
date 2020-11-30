@@ -1,0 +1,29 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+#sub-header
+{
+    background-color: #23cf5f;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-family:Nunito, sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.main-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#list 
+{
+    list-style-type: none;
+    float: left;
+}

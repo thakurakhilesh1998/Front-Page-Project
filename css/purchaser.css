@@ -90,3 +90,8 @@
     font-weight: 500;
     color: gray;
 }
+
+.card:hover
+{
+    border: 1px solid #23cf5f;
+}

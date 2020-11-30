@@ -3,7 +3,7 @@ var rank=0;
 var element=document.getElementById("type-msg");
 function show()
 {
-    text();
+    element.innerHTML=messages[rank];
     (rank==messages.length-1)?rank=0:rank++;
     setTimeout(show,1000);
 }

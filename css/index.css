@@ -585,17 +585,21 @@
         display: flex;
         flex-direction: column;
         height: auto;
-        margin: 0;
-        padding: 0;
     }
 
-.links-footer,.contact-form,.about
-    {
-        width: 100%;
+    .footer .footer-content .about{
+        padding:15px;
+        width: 90%;
     }
 
     .footer .footer-content .contact-form .contact-input,.btn
     {
-        width: 70%;
+        width: 80%;
+
+    }
+
+    .contact-form button
+    {
+        margin-left:20px;
     }
 }

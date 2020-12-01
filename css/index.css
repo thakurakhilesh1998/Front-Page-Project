@@ -1,12 +1,16 @@
 *
 {
+    box-sizing: border-box;
+}
+body
+{
     padding: 0;
     margin: 0;
 }
-
 #top
 {
     padding: 0 30px;
+    box-sizing: border-box;
 }
 
 #logo
@@ -50,7 +54,7 @@
 .toggle-button{
     position: absolute;
     top:1.75rem;
-    right:1rem;
+    right:2rem;
     display: none;
     flex-direction: column;
     justify-content:space-between;
@@ -377,6 +381,7 @@
 .video
 {
     width: 50%;
+    border:2px solid black;
 }
 .how-works li
 {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caroozen Web site</title>
     <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -19,20 +20,27 @@
 
     <!-- Starting of Main Header-->
     <header>
-        <div id="main-header">
-            <div id="logo">
-                <img src="images/logo.svg" alt="logo">
-            </div>
-            <div id="links">
-                <ul id="list">
-                    <li> <a href="#">I'm buying</a></li>
-                    <li> <a href="#">I'm Selling</a></li>
-                    <li> <a href="#">Rate</a></li>
-                    <li> <a href="#">Operation</a></li>
-                    <li> <a href="#">Support</a></li>
-                    <li> <a href="#" class="roung-links" id="active">Create Connection</a></li>
-                    <li> <a href="#" class="roung-links" id="inactive">Connection</a></li>
-                </ul>
+        <div id="top">
+            <div id="main-header">
+                <div id="logo">
+                    <img src="images/logo1.jpg" alt="logo" />
+                </div>
+                <div id="links">
+                    <ul id="list">
+                        <li><a href="purchasers and supplier.html">Purchaser & Seller</a></li>
+                        <li><a href="#">Rate</a></li>
+                        <li><a href="#">Operation</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                    <ul id="sign_up_sign_in_btn">
+                        <li>
+                            <a href="#" class="round-links" id="active">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="#" class="round-links" id="inactive">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -126,11 +134,13 @@
                 </h2>
                 <p>
                     Sign up and talk to your buyer or seller.</p>
-                    <p>The transaction is quick and very simple to set up
+                <p>The transaction is quick and very simple to set up
                 </p>
                 <div class="how-main">
                     <div class="video">
-                        <iframe src="https://www.youtube.com/embed/65JrtwtTOdc" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        <iframe src="https://www.youtube.com/embed/65JrtwtTOdc" frameborder="1"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
                         </iframe>
                     </div>
                     <ol class="how-works">
@@ -150,8 +160,8 @@
                             </div>
                             <li>
                                 <h3>Start a transaction</h3>
-                                <p>Arrange an appointment for the purchase/sale of the vehicle and pour the funds 
-                                    into the single and secure contract account.</p>    
+                                <p>Arrange an appointment for the purchase/sale of the vehicle and pour the funds
+                                    into the single and secure contract account.</p>
                             </li>
                         </div>
                         <div class="num">
@@ -171,6 +181,63 @@
         </div>
     </section>
     <!-- End Suitable Section-->
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text"><span>You Sell</span>You Buy</h1>
+                <p>
+                    "Hi you are Welcome, We offer Platform you guys to sell
+                    and buy products Let's Shift towards online platform."
+                </p>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41266661.933523476!2d-130.20948844200163!3d50.85492169779693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2sin!4v1606797026536!5m2!1sen!2sin" 
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div class="contact">
+                    <span><i class="fa fa-phone"></i>&nbsp;000-000-000</span>
+                    <span><i class="fa fa-envelope"></i>&nbsp;info@wesellwebuy.com</i></span>
+                </div>
+                <div class="social-media" id="social">
+                   <a href="#"><li><img src="images/facebook.png" alt="facebook icon"></li></a>
+                    <a href="#"><li><img src="images/instagram.png" alt="instagram icon"></li></a>
+                    <a href="#"><li><img src="images/linkedin.png" alt="linkedin icon"></li></a>
+                    <a href="#"><li><img src="images/twitter.png" alt="twitter icon"></li></a>
+                </div>
+            </div>
+            <div class="footer-section links-footer">
+                <h2>Quick Links</h2>
+                <ul id="list-links">
+                    <a href="#">
+                        <li>I'm buying</li>
+                    </a>
+                    <a href="#">
+                        <li>I'm Selling</li>
+                    </a>
+                    <a href="#">
+                        <li>Rate</li>
+                    </a>
+                    <a href="#">
+                        <li>Operation</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact us</h2>
+                <br>
+                <form action="index.html" method="POST">
+                    <input types="email" name="email" class="text-input contact-input" placeholder="Your email address">
+                    <textarea name="message" rows="3" class="text-input contact-input"
+                        placeholder="write your message here"></textarea>
+                    <button type="submit" class="btn btn-big">Sent</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy;designedbychander&akhilesh
+        </div>
+    </div>
+    <!-- /footer -->
 </body>
 
 </html>

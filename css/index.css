@@ -559,7 +559,6 @@ body
 
 #list-links a li{
     margin-top: 5px;
-    display: block;
     font-size:1.2em;
     transition: all 0.3s;
     font-family: Nunito, sans-serif;
@@ -572,9 +571,18 @@ body
     transition: all 0.3s;
 }
 
+#list-links
+{
+    margin-left: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+    display: inline;
+    list-style-type: none;
+}
 #list-links a
 {
     text-decoration: none;
+    padding-left: 0;
 }
 
 .footer .footer-content .contact-form form{

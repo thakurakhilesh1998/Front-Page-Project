@@ -10,42 +10,30 @@
 </head>
 
 <body>
-    <!-- Starting of Sub Header -->
-    <header>
-        <div id="sub-header">
-            <p>Customer service Monday to Saturday 10am-6pm - support@caroozen.com - Visit our Help Centre</p>
-        </div>
-    </header>
-    <!-- Ending of Sub Header -->
-
     <!-- Starting of Main Header-->
     <header>
         <div id="top">
             <div id="main-header">
                 <div id="logo">
-                    <img src="images/logo1.jpg" alt="logo" />
+                    <img src="images/logo1.jpg" alt="logo" id="image" />
                 </div>
-                <div id="links">
-                    <ul id="list">
-                        <li><a href="#">Purchaser & Seller</a></li>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                    <ul id="list" class="nav-menu-child ">
+                        <li><a href="purchasers and supplier.html">Purchaser & Seller</a></li>
                         <li><a href="#">Rate</a></li>
                         <li><a href="#">Operation</a></li>
                         <li><a href="#">Support</a></li>
-                    </ul>
-                    <ul id="sign_up_sign_in_btn">
-                        <li>
-                            <a href="#" class="round-links" id="active">Sign Up</a>
-                        </li>
-                        <li>
-                            <a href="#" class="round-links" id="inactive">Sign In</a>
-                        </li>
-                    </ul>
-                </div>
+                        <li><a href="#" class="round-links" id="active">Sign Up</a></li>
+                        <li><a href="#" class="round-links" id="inactive">Sign In</a></li>
+                    </ul>    
             </div>
         </div>
     </header>
-    <!-- Ending of Main Header-->
-
+    <script src="js/navbar.js"></script>
     <!--Starting of Banner-->
     <div class="banner">
         <div class="msg">
@@ -186,22 +174,31 @@
     <div class="footer">
         <div class="footer-content">
             <div class="footer-section about">
-                <h1 class="logo-text"><span>You Sell  </span>You Buy</h1>
+                <h1 class="logo-text"><span>You Sell </span>You Buy</h1>
                 <p>
                     "Hi you are Welcome, We offer Platform you guys to sell
                     and buy products Let's Shift towards online platform."
                 </p>
-                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41266661.933523476!2d-130.20948844200163!3d50.85492169779693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2sin!4v1606797026536!5m2!1sen!2sin" 
-                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41266661.933523476!2d-130.20948844200163!3d50.85492169779693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2sin!4v1606797026536!5m2!1sen!2sin"
+                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 <div class="contact">
                     <span><i class="fa fa-phone"></i>&nbsp;000-000-000</span>
                     <span><i class="fa fa-envelope"></i>&nbsp;info@wesellwebuy.com</i></span>
                 </div>
                 <div class="social-media" id="social">
-                   <a href="#"><li><img src="images/facebook.png" alt="facebook icon"></li></a>
-                    <a href="#"><li><img src="images/instagram.png" alt="instagram icon"></li></a>
-                    <a href="#"><li><img src="images/linkedin.png" alt="linkedin icon"></li></a>
-                    <a href="#"><li><img src="images/twitter.png" alt="twitter icon"></li></a>
+                    <a href="#">
+                        <li><img src="images/facebook.png" alt="facebook icon"></li>
+                    </a>
+                    <a href="#">
+                        <li><img src="images/instagram.png" alt="instagram icon"></li>
+                    </a>
+                    <a href="#">
+                        <li><img src="images/linkedin.png" alt="linkedin icon"></li>
+                    </a>
+                    <a href="#">
+                        <li><img src="images/twitter.png" alt="twitter icon"></li>
+                    </a>
                 </div>
             </div>
             <div class="footer-section links-footer">

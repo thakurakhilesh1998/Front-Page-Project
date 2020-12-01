@@ -122,6 +122,18 @@
     height: 500px;
     padding: 20px 20px 0 0;
 }
+
+@media only screen and (max-width: 900px) 
+{
+    .banner .img
+    {
+        display: none;
+    }
+    .msg 
+    {
+        padding: 10px;
+    }
+}
 #type-msg
 {
     animation:  typing 3.5s steps(40, end),blink-caret .75s step-end infinite;
@@ -135,6 +147,16 @@
     justify-content: center;
     padding: 70px 150px 70px 150px;
     box-sizing: border-box;
+}
+
+@media only screen and (max-width: 900px) 
+{
+    .trust
+    {
+        grid-template-columns: 1fr 1fr;
+        justify-content: start;
+        padding: 70px 30px;
+    }
 }
 
 .item
@@ -246,6 +268,22 @@
     font-weight: 600;
 }
 
+@media only screen and (max-width: 900px) 
+{
+    .img-why img
+    {
+        display: none;
+    }
+    .suitable .btn
+    {
+        margin: 0 auto;
+    }
+    .answer
+    {
+        width: 100%;
+        margin: 10px;
+    }
+}
 #list-why li
 {
     text-align: left;
@@ -369,14 +407,14 @@
     .how-works
     {
         margin-top: 30px;
-        width: 100%;
-        margin-left: 0;
-        text-align: left;
+        width: 90%;
+        margin: 30px auto;
         padding-left: 0;
     }
     .video
     {
-        width: 100%;
+        margin: 0 auto;
+        width: 90%;
         height: 300px;
     }
 
@@ -547,6 +585,8 @@
         display: flex;
         flex-direction: column;
         height: auto;
+        margin: 0;
+        padding: 0;
     }
 
 .links-footer,.contact-form,.about
